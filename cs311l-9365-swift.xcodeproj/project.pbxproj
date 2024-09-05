@@ -86,13 +86,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		510C9A972C8840D1000BD8BF /* classes */ = {
+		510C9A9C2C89E633000BD8BF /* model */ = {
 			isa = PBXGroup;
 			children = (
 				510C9A982C884250000BD8BF /* TodoItem.swift */,
 				510C9A9A2C8843CD000BD8BF /* Course.swift */,
 			);
-			path = classes;
+			name = model;
+			path = classes/model;
+			sourceTree = "<group>";
+		};
+		510C9A9D2C89E893000BD8BF /* view */ = {
+			isa = PBXGroup;
+			children = (
+				C31703C22C8446F300425ED4 /* CustomTabBar.swift */,
+				C31703992C843EFB00425ED4 /* ContentView.swift */,
+				C31703CA2C84545A00425ED4 /* TodoView.swift */,
+				C31703C82C8452D200425ED4 /* CurrentGradeCalculator.swift */,
+				C31703C62C8451EB00425ED4 /* AbsentsView.swift */,
+				C31703C42C84513C00425ED4 /* LetterGradeView.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		510C9A9E2C89E89C000BD8BF /* controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = controller;
 			sourceTree = "<group>";
 		};
 		C317038B2C843EFB00425ED4 = {
@@ -118,17 +139,13 @@
 		C31703962C843EFB00425ED4 /* cs311l-9365-swift */ = {
 			isa = PBXGroup;
 			children = (
-				510C9A972C8840D1000BD8BF /* classes */,
-				C31703C22C8446F300425ED4 /* CustomTabBar.swift */,
+				510C9A9E2C89E89C000BD8BF /* controller */,
+				510C9A9D2C89E893000BD8BF /* view */,
+				510C9A9C2C89E633000BD8BF /* model */,
 				C31703972C843EFB00425ED4 /* cs311l_9365_swiftApp.swift */,
-				C31703992C843EFB00425ED4 /* ContentView.swift */,
 				C317039B2C843EFE00425ED4 /* Assets.xcassets */,
 				C31703A02C843EFE00425ED4 /* cs311l_9365_swift.entitlements */,
 				C317039D2C843EFE00425ED4 /* Preview Content */,
-				C31703C42C84513C00425ED4 /* LetterGradeView.swift */,
-				C31703C62C8451EB00425ED4 /* AbsentsView.swift */,
-				C31703C82C8452D200425ED4 /* CurrentGradeCalculator.swift */,
-				C31703CA2C84545A00425ED4 /* TodoView.swift */,
 			);
 			path = "cs311l-9365-swift";
 			sourceTree = "<group>";

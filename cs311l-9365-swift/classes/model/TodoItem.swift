@@ -30,4 +30,8 @@ struct TodoItem {
     mutating func markAsDoing() {
         status = "Doing"
     }
+    
+    func toString() -> String {
+        return "Course: \(course.courseNumber)" + ", Task Name: \(name)" + ", Task Description: \(description)" + ", Status: \(status)"
+    }
 }
