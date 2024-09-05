@@ -6,3 +6,13 @@
 //
 
 import Foundation
+
+struct Course {
+    var courseNumber: String;
+    var descriptiveTitle: String;
+    var units: Double;
+    
+    func toString() {
+        
+    }
+}

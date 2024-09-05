@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		510C9A992C884250000BD8BF /* TodoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510C9A982C884250000BD8BF /* TodoItem.swift */; };
+		510C9A9B2C8843CD000BD8BF /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510C9A9A2C8843CD000BD8BF /* Course.swift */; };
 		C31703982C843EFB00425ED4 /* cs311l_9365_swiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31703972C843EFB00425ED4 /* cs311l_9365_swiftApp.swift */; };
 		C317039A2C843EFB00425ED4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31703992C843EFB00425ED4 /* ContentView.swift */; };
 		C317039C2C843EFE00425ED4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C317039B2C843EFE00425ED4 /* Assets.xcassets */; };
@@ -39,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		510C9A982C884250000BD8BF /* TodoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoItem.swift; sourceTree = "<group>"; };
+		510C9A9A2C8843CD000BD8BF /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
 		C31703942C843EFB00425ED4 /* cs311l-9365-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cs311l-9365-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C31703972C843EFB00425ED4 /* cs311l_9365_swiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cs311l_9365_swiftApp.swift; sourceTree = "<group>"; };
 		C31703992C843EFB00425ED4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -82,6 +86,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		510C9A972C8840D1000BD8BF /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				510C9A982C884250000BD8BF /* TodoItem.swift */,
+				510C9A9A2C8843CD000BD8BF /* Course.swift */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
 		C317038B2C843EFB00425ED4 = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +118,7 @@
 		C31703962C843EFB00425ED4 /* cs311l-9365-swift */ = {
 			isa = PBXGroup;
 			children = (
+				510C9A972C8840D1000BD8BF /* classes */,
 				C31703C22C8446F300425ED4 /* CustomTabBar.swift */,
 				C31703972C843EFB00425ED4 /* cs311l_9365_swiftApp.swift */,
 				C31703992C843EFB00425ED4 /* ContentView.swift */,
@@ -274,12 +288,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				510C9A9B2C8843CD000BD8BF /* Course.swift in Sources */,
 				C317039A2C843EFB00425ED4 /* ContentView.swift in Sources */,
 				C31703C32C8446F300425ED4 /* CustomTabBar.swift in Sources */,
 				C31703CB2C84545A00425ED4 /* TodoView.swift in Sources */,
 				C31703C52C84513C00425ED4 /* LetterGradeView.swift in Sources */,
 				C31703C72C8451EB00425ED4 /* AbsentsView.swift in Sources */,
 				C31703982C843EFB00425ED4 /* cs311l_9365_swiftApp.swift in Sources */,
+				510C9A992C884250000BD8BF /* TodoItem.swift in Sources */,
 				C31703C92C8452D200425ED4 /* CurrentGradeCalculator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
