@@ -10,10 +10,20 @@ import SwiftUI
 import Foundation
 
 struct ScheduleView: View {
+    @ObservedObject var scheduleController = ScheduleController()
 
-    
+
     var body: some View {
-        Text("Schedule")
+
+        VStack {
+            
+            Text("| Class Code | Course Number | Title | Units | Days | Time |")
+            List {
+                ForEach(scheduleController.courses) { course in
+                    Text(course.description)
+                }
+            }
+        }
     }
 }
 

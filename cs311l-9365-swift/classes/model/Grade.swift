@@ -7,7 +7,7 @@
 
 import Foundation
 
-class Grade {
+struct Grade {
     
     var grade: Double;      // Holds the grade the student has for the subject
     var course: Course;     // Holds the Course object of the associated grade
