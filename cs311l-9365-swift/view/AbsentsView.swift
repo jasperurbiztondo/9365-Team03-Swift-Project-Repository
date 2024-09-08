@@ -18,7 +18,7 @@ struct AbsentsView: View {
     @State var submittedText = ""
     
     //Make sure to spread the line wider for the course,
-    //schedule, absence and shit
+    //schedule, absence
     //Use the print stuff from schedview
     
     var body: some View {
