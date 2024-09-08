@@ -7,12 +7,12 @@
 
 import SwiftUI
 
-struct CurrentGradeCalculator: View {
+struct CurrentGradeCalculatorView: View {
     var body: some View {
         Text("Calculate your current grade here!")
     }
 }
 
 #Preview {
-    CurrentGradeCalculator()
+    CurrentGradeCalculatorView()
 }
