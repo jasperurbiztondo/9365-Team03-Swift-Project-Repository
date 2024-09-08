@@ -22,14 +22,15 @@ struct ContentView: View {
                     
                     switch tab {
                         case .house:
-                        LetterGradeView().tag(tab)
+                            LetterGradeView().tag(tab)
                         case .graduationcap:
                             AbsentsView().tag(tab)
                         case .book:
-                            CurrentGradeCalculator().tag(tab)
+                            CurrentGradeCalculatorView().tag(tab)
+                        case .calendar:
+                            ScheduleView().tag(tab)
                         case .listBullet:
                             TodoView().tag(tab)
-                        
                     }
                 }
             }

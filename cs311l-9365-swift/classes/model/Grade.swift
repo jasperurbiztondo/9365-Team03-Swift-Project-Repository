@@ -41,6 +41,6 @@ class Grade {
     
     // The \(variable_name) is how you should get a variable's value inside a String in swift
     var description:String {
-        return "\(course.courseNumber) : \(grade)"
+        return "\(course._courseNumber) : \(grade)"
     }
 }

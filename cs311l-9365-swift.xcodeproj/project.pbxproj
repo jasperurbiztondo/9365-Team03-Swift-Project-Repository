@@ -19,12 +19,13 @@
 		C31703C32C8446F300425ED4 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31703C22C8446F300425ED4 /* CustomTabBar.swift */; };
 		C31703C52C84513C00425ED4 /* LetterGradeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31703C42C84513C00425ED4 /* LetterGradeView.swift */; };
 		C31703C72C8451EB00425ED4 /* AbsentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31703C62C8451EB00425ED4 /* AbsentsView.swift */; };
-		C31703C92C8452D200425ED4 /* CurrentGradeCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31703C82C8452D200425ED4 /* CurrentGradeCalculator.swift */; };
+		C31703C92C8452D200425ED4 /* CurrentGradeCalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31703C82C8452D200425ED4 /* CurrentGradeCalculatorView.swift */; };
 		C31703CB2C84545A00425ED4 /* TodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31703CA2C84545A00425ED4 /* TodoView.swift */; };
 		C33CC55F2C8D407B00A64D35 /* Absent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33CC55E2C8D407B00A64D35 /* Absent.swift */; };
 		C33CC5612C8D474A00A64D35 /* Grade.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33CC5602C8D474A00A64D35 /* Grade.swift */; };
 		C33CC5632C8D4AC900A64D35 /* TimeRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33CC5622C8D4AC900A64D35 /* TimeRange.swift */; };
-		C33CC5652C8D4C1A00A64D35 /* DayTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33CC5642C8D4C1A00A64D35 /* DayTime.swift */; };
+		C33CC5692C8D537300A64D35 /* ScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33CC5682C8D537300A64D35 /* ScheduleView.swift */; };
+		C33CC56B2C8D560900A64D35 /* ScheduleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33CC56A2C8D560900A64D35 /* ScheduleController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,12 +62,13 @@
 		C31703C22C8446F300425ED4 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 		C31703C42C84513C00425ED4 /* LetterGradeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterGradeView.swift; sourceTree = "<group>"; };
 		C31703C62C8451EB00425ED4 /* AbsentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbsentsView.swift; sourceTree = "<group>"; };
-		C31703C82C8452D200425ED4 /* CurrentGradeCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentGradeCalculator.swift; sourceTree = "<group>"; };
+		C31703C82C8452D200425ED4 /* CurrentGradeCalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentGradeCalculatorView.swift; sourceTree = "<group>"; };
 		C31703CA2C84545A00425ED4 /* TodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoView.swift; sourceTree = "<group>"; };
 		C33CC55E2C8D407B00A64D35 /* Absent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Absent.swift; sourceTree = "<group>"; };
 		C33CC5602C8D474A00A64D35 /* Grade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grade.swift; sourceTree = "<group>"; };
 		C33CC5622C8D4AC900A64D35 /* TimeRange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeRange.swift; sourceTree = "<group>"; };
-		C33CC5642C8D4C1A00A64D35 /* DayTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayTime.swift; sourceTree = "<group>"; };
+		C33CC5682C8D537300A64D35 /* ScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleView.swift; sourceTree = "<group>"; };
+		C33CC56A2C8D560900A64D35 /* ScheduleController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ScheduleController.swift; path = "cs311l-9365-swift/view/ScheduleController.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +104,6 @@
 				C33CC55E2C8D407B00A64D35 /* Absent.swift */,
 				C33CC5602C8D474A00A64D35 /* Grade.swift */,
 				C33CC5622C8D4AC900A64D35 /* TimeRange.swift */,
-				C33CC5642C8D4C1A00A64D35 /* DayTime.swift */,
 			);
 			name = model;
 			path = classes/model;
@@ -114,9 +115,10 @@
 				C31703C22C8446F300425ED4 /* CustomTabBar.swift */,
 				C31703992C843EFB00425ED4 /* ContentView.swift */,
 				C31703CA2C84545A00425ED4 /* TodoView.swift */,
-				C31703C82C8452D200425ED4 /* CurrentGradeCalculator.swift */,
+				C31703C82C8452D200425ED4 /* CurrentGradeCalculatorView.swift */,
 				C31703C62C8451EB00425ED4 /* AbsentsView.swift */,
 				C31703C42C84513C00425ED4 /* LetterGradeView.swift */,
+				C33CC5682C8D537300A64D35 /* ScheduleView.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -124,6 +126,7 @@
 		510C9A9E2C89E89C000BD8BF /* controller */ = {
 			isa = PBXGroup;
 			children = (
+				C33CC56A2C8D560900A64D35 /* ScheduleController.swift */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -319,17 +322,18 @@
 			files = (
 				510C9A9B2C8843CD000BD8BF /* Course.swift in Sources */,
 				C317039A2C843EFB00425ED4 /* ContentView.swift in Sources */,
+				C33CC56B2C8D560900A64D35 /* ScheduleController.swift in Sources */,
 				C31703C32C8446F300425ED4 /* CustomTabBar.swift in Sources */,
+				C33CC5692C8D537300A64D35 /* ScheduleView.swift in Sources */,
 				C31703CB2C84545A00425ED4 /* TodoView.swift in Sources */,
 				C31703C52C84513C00425ED4 /* LetterGradeView.swift in Sources */,
 				C31703C72C8451EB00425ED4 /* AbsentsView.swift in Sources */,
-				C33CC5652C8D4C1A00A64D35 /* DayTime.swift in Sources */,
 				C33CC5632C8D4AC900A64D35 /* TimeRange.swift in Sources */,
 				C33CC55F2C8D407B00A64D35 /* Absent.swift in Sources */,
 				C31703982C843EFB00425ED4 /* cs311l_9365_swiftApp.swift in Sources */,
 				C33CC5612C8D474A00A64D35 /* Grade.swift in Sources */,
 				510C9A992C884250000BD8BF /* TodoItem.swift in Sources */,
-				C31703C92C8452D200425ED4 /* CurrentGradeCalculator.swift in Sources */,
+				C31703C92C8452D200425ED4 /* CurrentGradeCalculatorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

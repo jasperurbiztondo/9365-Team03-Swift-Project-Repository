@@ -7,22 +7,27 @@
 
 import Foundation
 
-class Course {
+class Course: Identifiable {
+    var _classCode: String;
     var _courseNumber: String;
     var _descriptiveTitle: String;
     var _units: Double;
-    var _schedule : [DayTime]
+    var _days : String
+    var _time : TimeRange
     
     // The main initializer for the course object
-    init(courseNumber: String, title: String, units: Double) {
+    init(classCode: String, courseNumber: String, title: String, units: Double, days : String, time: TimeRange) {
+        self._classCode = classCode
         self._courseNumber = courseNumber
         self._descriptiveTitle = title
         self._units = units
+        self._days = days
+        self._time = time
     }
     
     
     // Basically the counterpart to Java's toString() method
     var description: String {
-        return "\(_courseNumber) \(_units) \(_descriptiveTitle)"
+        return "\(_classCode) \(_courseNumber) \(_units) \(_descriptiveTitle)"
     }
 }
