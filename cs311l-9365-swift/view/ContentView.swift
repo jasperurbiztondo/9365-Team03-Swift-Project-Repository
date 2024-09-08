@@ -29,7 +29,7 @@ struct ContentView: View {
                             CurrentGradeCalculator().tag(tab)
                         case .listBullet:
                             TodoView().tag(tab)
-                            
+                        
                     }
                 }
             }
