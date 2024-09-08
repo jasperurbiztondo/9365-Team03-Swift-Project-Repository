@@ -7,12 +7,22 @@
 
 import Foundation
 
-struct Course {
-    var courseNumber: String;
-    var descriptiveTitle: String;
-    var units: Double;
+class Course {
+    var _courseNumber: String;
+    var _descriptiveTitle: String;
+    var _units: Double;
+    var _schedule : [DayTime]
     
-    func toString() {
-        
+    // The main initializer for the course object
+    init(courseNumber: String, title: String, units: Double) {
+        self._courseNumber = courseNumber
+        self._descriptiveTitle = title
+        self._units = units
+    }
+    
+    
+    // Basically the counterpart to Java's toString() method
+    var description: String {
+        return "\(_courseNumber) \(_units) \(_descriptiveTitle)"
     }
 }

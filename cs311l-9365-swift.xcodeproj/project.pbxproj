@@ -21,6 +21,10 @@
 		C31703C72C8451EB00425ED4 /* AbsentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31703C62C8451EB00425ED4 /* AbsentsView.swift */; };
 		C31703C92C8452D200425ED4 /* CurrentGradeCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31703C82C8452D200425ED4 /* CurrentGradeCalculator.swift */; };
 		C31703CB2C84545A00425ED4 /* TodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31703CA2C84545A00425ED4 /* TodoView.swift */; };
+		C33CC55F2C8D407B00A64D35 /* Absent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33CC55E2C8D407B00A64D35 /* Absent.swift */; };
+		C33CC5612C8D474A00A64D35 /* Grade.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33CC5602C8D474A00A64D35 /* Grade.swift */; };
+		C33CC5632C8D4AC900A64D35 /* TimeRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33CC5622C8D4AC900A64D35 /* TimeRange.swift */; };
+		C33CC5652C8D4C1A00A64D35 /* DayTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33CC5642C8D4C1A00A64D35 /* DayTime.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +63,10 @@
 		C31703C62C8451EB00425ED4 /* AbsentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbsentsView.swift; sourceTree = "<group>"; };
 		C31703C82C8452D200425ED4 /* CurrentGradeCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentGradeCalculator.swift; sourceTree = "<group>"; };
 		C31703CA2C84545A00425ED4 /* TodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoView.swift; sourceTree = "<group>"; };
+		C33CC55E2C8D407B00A64D35 /* Absent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Absent.swift; sourceTree = "<group>"; };
+		C33CC5602C8D474A00A64D35 /* Grade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Grade.swift; sourceTree = "<group>"; };
+		C33CC5622C8D4AC900A64D35 /* TimeRange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeRange.swift; sourceTree = "<group>"; };
+		C33CC5642C8D4C1A00A64D35 /* DayTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayTime.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +99,10 @@
 			children = (
 				510C9A982C884250000BD8BF /* TodoItem.swift */,
 				510C9A9A2C8843CD000BD8BF /* Course.swift */,
+				C33CC55E2C8D407B00A64D35 /* Absent.swift */,
+				C33CC5602C8D474A00A64D35 /* Grade.swift */,
+				C33CC5622C8D4AC900A64D35 /* TimeRange.swift */,
+				C33CC5642C8D4C1A00A64D35 /* DayTime.swift */,
 			);
 			name = model;
 			path = classes/model;
@@ -311,7 +323,11 @@
 				C31703CB2C84545A00425ED4 /* TodoView.swift in Sources */,
 				C31703C52C84513C00425ED4 /* LetterGradeView.swift in Sources */,
 				C31703C72C8451EB00425ED4 /* AbsentsView.swift in Sources */,
+				C33CC5652C8D4C1A00A64D35 /* DayTime.swift in Sources */,
+				C33CC5632C8D4AC900A64D35 /* TimeRange.swift in Sources */,
+				C33CC55F2C8D407B00A64D35 /* Absent.swift in Sources */,
 				C31703982C843EFB00425ED4 /* cs311l_9365_swiftApp.swift in Sources */,
+				C33CC5612C8D474A00A64D35 /* Grade.swift in Sources */,
 				510C9A992C884250000BD8BF /* TodoItem.swift in Sources */,
 				C31703C92C8452D200425ED4 /* CurrentGradeCalculator.swift in Sources */,
 			);

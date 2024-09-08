@@ -21,6 +21,7 @@ struct TodoItem {
         self.name = name
         self.description = description
         self.status = status
+        
     }
     
     mutating func markAsDone() {
