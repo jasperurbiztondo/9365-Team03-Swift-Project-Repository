@@ -8,7 +8,7 @@
 import SwiftUI
 
 class GradeCalculatorController: ObservableObject {
-    @Published var gradeModels: [GradeCalculatorModel] = Array(repeatiyng: GradeCalculatorModel(course: "", units: 0, grade: 0.0), count: 10)
+    @Published var gradeModels: [GradeCalculatorModel] = Array(repeating: GradeCalculatorModel(course: "", units: 0, grade: 0.0), count: 10)
     
     var totalWeightedGrade: Double {
         gradeModels.reduce(0) { $0 + (Double($1.units) * $1.grade) }
