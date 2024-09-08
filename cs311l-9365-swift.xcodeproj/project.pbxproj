@@ -61,7 +61,7 @@
 		C31703B52C843EFF00425ED4 /* cs311l_9365_swiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cs311l_9365_swiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		C31703C22C8446F300425ED4 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 		C31703C42C84513C00425ED4 /* LetterGradeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterGradeView.swift; sourceTree = "<group>"; };
-		C31703C62C8451EB00425ED4 /* AbsentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbsentsView.swift; sourceTree = "<group>"; };
+		C31703C62C8451EB00425ED4 /* AbsentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbsentsView.swift; sourceTree = "<group>"; usesTabs = 0; wrapsLines = 0; };
 		C31703C82C8452D200425ED4 /* CurrentGradeCalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentGradeCalculatorView.swift; sourceTree = "<group>"; };
 		C31703CA2C84545A00425ED4 /* TodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoView.swift; sourceTree = "<group>"; };
 		C33CC55E2C8D407B00A64D35 /* Absent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Absent.swift; sourceTree = "<group>"; };
