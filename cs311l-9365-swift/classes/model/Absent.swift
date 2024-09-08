@@ -8,14 +8,14 @@
 
 import Foundation
 
-class Absent {
+struct Absent {
     var _isAbsent: Bool; // If he was absent true, if he was late false
     var _courseStruct: Course; // Holds which course the student was absent in
     var _date: Date; // Holds the current date and the current time
     var _remarks: Bool; // excused absent or otherwise
     
     
-    // Initializer for an object of this class
+    // Initializer for an object of this struct
     init(isAbsent: String, courseStruct: Course, date: Date, remarks: Bool) {
         self._isAbsent = isAbsent == "Absent"
         self._courseStruct = courseStruct
@@ -24,9 +24,9 @@ class Absent {
     }
     
     
-    // Initializer for an object of this class where the date and time are set to the curr time and date
+    // Initializer for an object of this struct where the date and time are set to the curr time and date
     // The convenience keyword alongside the self.init work together to simplify calling the main initializer and pass in some values
-    convenience init(isAbsent: String, courseStruct: Course, remarks:Bool) {
+    init(isAbsent: String, courseStruct: Course, remarks:Bool) {
         self.init(isAbsent: isAbsent, courseStruct: courseStruct, date: Date(), remarks: remarks)
     }
     

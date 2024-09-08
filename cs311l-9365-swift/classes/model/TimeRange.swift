@@ -7,18 +7,14 @@
 
 import Foundation
 
-class TimeRange {
-    var _startTime: String
-    var _endTime: String
+struct TimeRange : Identifiable {
+    let id = UUID()
+    var startTime: String
+    var endTime: String
     
-    // Basic initializer of class
-    init(startTime: String, endTime: String) {
-        self._startTime = startTime
-        self._endTime = endTime
+    
+    var description : String {
+        return "\(startTime) - \(endTime)"
     }
     
-    // Will basically return a timeRange following the format 10:30 - 11:30
-    var description: String {
-        return "\(_startTime)-\(_endTime)"
-    }
 }

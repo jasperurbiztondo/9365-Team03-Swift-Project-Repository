@@ -7,7 +7,8 @@
 
 import Foundation
 
-class Course: Identifiable {
+struct Course : Identifiable{
+    let id = UUID()
     var _classCode: String;
     var _courseNumber: String;
     var _descriptiveTitle: String;
@@ -16,7 +17,7 @@ class Course: Identifiable {
     var _time : TimeRange
     
     // The main initializer for the course object
-    init(classCode: String, courseNumber: String, title: String, units: Double, days : String, time: TimeRange) {
+    init(classCode: String, courseNumber: String, title: String, units: Double, days : String, time: TimeRange){
         self._classCode = classCode
         self._courseNumber = courseNumber
         self._descriptiveTitle = title
@@ -28,6 +29,8 @@ class Course: Identifiable {
     
     // Basically the counterpart to Java's toString() method
     var description: String {
-        return "\(_classCode) \(_courseNumber) \(_units) \(_descriptiveTitle)"
+        return "\(_classCode)   \(_courseNumber)     \(_descriptiveTitle)    \(_units)   \(_time.description)   \(_days)"
     }
 }
+
+
