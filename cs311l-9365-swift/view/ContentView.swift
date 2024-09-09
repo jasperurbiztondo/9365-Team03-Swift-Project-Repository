@@ -34,6 +34,8 @@ struct ContentView: View {
                     }
                 }
             }
+            
+            .padding(.bottom, 80);
             VStack {
                 Spacer()
                 CustomTabBar(selectedTab: $selectedTab)
