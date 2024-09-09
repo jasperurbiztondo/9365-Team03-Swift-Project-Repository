@@ -8,7 +8,7 @@
 import SwiftUI
 
 enum Tab: String, CaseIterable {
-    case house
+    case chart = "chart.bar"
     case calendar = "calendar.circle"
     case graduationcap
     case book
@@ -25,7 +25,7 @@ struct CustomTabBar: View {
         switch selectedTab {
         case .calendar:
             return .orange
-        case .house:
+        case .chart:
             return .blue
         case .graduationcap:
             return .green
@@ -65,5 +65,5 @@ struct CustomTabBar: View {
 }
 
 #Preview {
-    CustomTabBar(selectedTab: .constant(.house))
+    CustomTabBar(selectedTab: .constant(.chart))
 }

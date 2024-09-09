@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State private var selectedTab : Tab = .house
+    @State private var selectedTab : Tab = .chart
     
     init() {
 
@@ -21,7 +21,7 @@ struct ContentView: View {
                 ForEach(Tab.allCases, id: \.rawValue) { tab in
                     
                     switch tab {
-                        case .house:
+                        case .chart:
                             LetterGradeView().tag(tab)
                         case .graduationcap:
                             AbsentsView().tag(tab)
