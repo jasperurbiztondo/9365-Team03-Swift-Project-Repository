@@ -84,9 +84,12 @@ struct NewItemView: View {
             Form {
                 TextField("Course Number", text: $courseNum)
                     .padding(.bottom, 10)
+                    .frame(width:300)
                 TextField("Task Name", text: $taskName)
                     .padding(.bottom, 10)
+                    .frame(width:300)
             }
+            .padding(50)
         }
         HStack {
             Button("Cancel") {
