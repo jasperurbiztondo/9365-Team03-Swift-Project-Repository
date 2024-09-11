@@ -7,33 +7,26 @@
 
 import Foundation
 
-struct TodoItem {
-    var course: Course
+struct TodoItem: Identifiable {
+    let id = UUID()
+    var course: String
     var name: String
-    var description: String
-    var status: String
+    var isCompleted: Bool
     
     /**
      Constructs an object of TodoItem with user-defined values.
      */
-    init(course: Course, name: String, description: String, status: String = "To Do") {
+    init(course: String, name: String, isCompleted: Bool = false) {
         self.course = course
         self.name = name
-        self.description = description
-        self.status = status
-        
+        self.isCompleted = isCompleted
     }
     
-    mutating func markAsDone() {
-        status = "Done"
+    mutating func updateStatus() {
+        isCompleted = !isCompleted
     }
-    
-    mutating func markAsDoing() {
-        status = "Doing"
+
+    var description: String {
+        return "\(course) \(name) \(isCompleted)"
     }
-    
-    /*func toString() -> String {
-        return "Course: \(course.courseNumber)" + ", Task Name: \(name)" + ", Task Description: \(description)" + ", Status: \(status)"
-    }
-     */
 }

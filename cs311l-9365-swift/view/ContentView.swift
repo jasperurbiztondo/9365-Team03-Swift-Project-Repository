@@ -41,7 +41,6 @@ struct ContentView: View {
                 CustomTabBar(selectedTab: $selectedTab)
             }
         }
-        
     }
 }
 
