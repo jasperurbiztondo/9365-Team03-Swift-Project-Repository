@@ -8,9 +8,9 @@
 import SwiftUI
 
 enum Tab: String, CaseIterable {
-    case chart = "chart.bar"
     case calendar = "calendar.circle"
     case graduationcap
+    case chart = "chart.bar"
     case book
     case listBullet = "list.clipboard"
 }
