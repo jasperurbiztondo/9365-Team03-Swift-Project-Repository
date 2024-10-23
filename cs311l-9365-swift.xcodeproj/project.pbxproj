@@ -48,6 +48,27 @@
 			remoteGlobalIDString = C31703932C843EFB00425ED4;
 			remoteInfo = "cs311l-9365-swift";
 		};
+		C3B5884C2CC90F5F009E6F8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3B588342CC90F5E009E6F8C /* cs311l-frameworkTesting.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 71A130752CC8D5510030C1DC;
+			remoteInfo = "cs311l-frameworkTesting";
+		};
+		C3B5884E2CC90F5F009E6F8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3B588342CC90F5E009E6F8C /* cs311l-frameworkTesting.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 71A130852CC8D5540030C1DC;
+			remoteInfo = "cs311l-frameworkTestingTests";
+		};
+		C3B588502CC90F5F009E6F8C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3B588342CC90F5E009E6F8C /* cs311l-frameworkTesting.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 71A1308F2CC8D5540030C1DC;
+			remoteInfo = "cs311l-frameworkTestingUITests";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -77,6 +98,15 @@
 		C33CC5622C8D4AC900A64D35 /* TimeRange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeRange.swift; sourceTree = "<group>"; };
 		C33CC5682C8D537300A64D35 /* ScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleView.swift; sourceTree = "<group>"; };
 		C33CC56A2C8D560900A64D35 /* ScheduleController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ScheduleController.swift; path = "cs311l-9365-swift/view/ScheduleController.swift"; sourceTree = SOURCE_ROOT; };
+		C3B588292CC90F5E009E6F8C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C3B5882B2CC90F5E009E6F8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C3B5882C2CC90F5E009E6F8C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C3B5882D2CC90F5E009E6F8C /* cs311l_frameworkTestingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cs311l_frameworkTestingApp.swift; sourceTree = "<group>"; };
+		C3B5882F2CC90F5E009E6F8C /* cs311l_frameworkTestingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cs311l_frameworkTestingTests.swift; sourceTree = "<group>"; };
+		C3B588312CC90F5E009E6F8C /* cs311l_frameworkTestingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cs311l_frameworkTestingUITests.swift; sourceTree = "<group>"; };
+		C3B588322CC90F5E009E6F8C /* cs311l_frameworkTestingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cs311l_frameworkTestingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C3B588342CC90F5E009E6F8C /* cs311l-frameworkTesting.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "cs311l-frameworkTesting.xcodeproj"; sourceTree = "<group>"; };
+		C3B588362CC90F5E009E6F8C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		C3F36E872C8FCE2300797CB9 /* GradeCalculatorController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradeCalculatorController.swift; sourceTree = "<group>"; };
 		C3F36E892C8FCE3000797CB9 /* GradeCalculatorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradeCalculatorModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -149,6 +179,8 @@
 		C317038B2C843EFB00425ED4 = {
 			isa = PBXGroup;
 			children = (
+				C3B588352CC90F5E009E6F8C /* cs311l-frameworkTesting */,
+				C3B588372CC90F5E009E6F8C /* swift-debug */,
 				C31703962C843EFB00425ED4 /* cs311l-9365-swift */,
 				C31703A82C843EFF00425ED4 /* cs311l-9365-swiftTests */,
 				C31703B22C843EFF00425ED4 /* cs311l-9365-swiftUITests */,
@@ -203,6 +235,71 @@
 				C31703B52C843EFF00425ED4 /* cs311l_9365_swiftUITestsLaunchTests.swift */,
 			);
 			path = "cs311l-9365-swiftUITests";
+			sourceTree = "<group>";
+		};
+		C3B5882A2CC90F5E009E6F8C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C3B588292CC90F5E009E6F8C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C3B5882E2CC90F5E009E6F8C /* cs311l-frameworkTesting */ = {
+			isa = PBXGroup;
+			children = (
+				C3B5882A2CC90F5E009E6F8C /* Preview Content */,
+				C3B5882B2CC90F5E009E6F8C /* Assets.xcassets */,
+				C3B5882C2CC90F5E009E6F8C /* ContentView.swift */,
+				C3B5882D2CC90F5E009E6F8C /* cs311l_frameworkTestingApp.swift */,
+			);
+			path = "cs311l-frameworkTesting";
+			sourceTree = "<group>";
+		};
+		C3B588302CC90F5E009E6F8C /* cs311l-frameworkTestingTests */ = {
+			isa = PBXGroup;
+			children = (
+				C3B5882F2CC90F5E009E6F8C /* cs311l_frameworkTestingTests.swift */,
+			);
+			path = "cs311l-frameworkTestingTests";
+			sourceTree = "<group>";
+		};
+		C3B588332CC90F5E009E6F8C /* cs311l-frameworkTestingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C3B588312CC90F5E009E6F8C /* cs311l_frameworkTestingUITests.swift */,
+				C3B588322CC90F5E009E6F8C /* cs311l_frameworkTestingUITestsLaunchTests.swift */,
+			);
+			path = "cs311l-frameworkTestingUITests";
+			sourceTree = "<group>";
+		};
+		C3B588352CC90F5E009E6F8C /* cs311l-frameworkTesting */ = {
+			isa = PBXGroup;
+			children = (
+				C3B5882E2CC90F5E009E6F8C /* cs311l-frameworkTesting */,
+				C3B588302CC90F5E009E6F8C /* cs311l-frameworkTestingTests */,
+				C3B588332CC90F5E009E6F8C /* cs311l-frameworkTestingUITests */,
+				C3B588342CC90F5E009E6F8C /* cs311l-frameworkTesting.xcodeproj */,
+			);
+			path = "cs311l-frameworkTesting";
+			sourceTree = "<group>";
+		};
+		C3B588372CC90F5E009E6F8C /* swift-debug */ = {
+			isa = PBXGroup;
+			children = (
+				C3B588362CC90F5E009E6F8C /* main.swift */,
+			);
+			path = "swift-debug";
+			sourceTree = "<group>";
+		};
+		C3B588382CC90F5E009E6F8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3B5884D2CC90F5F009E6F8C /* cs311l-frameworkTesting.app */,
+				C3B5884F2CC90F5F009E6F8C /* cs311l-frameworkTestingTests.xctest */,
+				C3B588512CC90F5F009E6F8C /* cs311l-frameworkTestingUITests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,6 +392,12 @@
 			mainGroup = C317038B2C843EFB00425ED4;
 			productRefGroup = C31703952C843EFB00425ED4 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = C3B588382CC90F5E009E6F8C /* Products */;
+					ProjectRef = C3B588342CC90F5E009E6F8C /* cs311l-frameworkTesting.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				C31703932C843EFB00425ED4 /* cs311l-9365-swift */,
@@ -303,6 +406,30 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		C3B5884D2CC90F5F009E6F8C /* cs311l-frameworkTesting.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "cs311l-frameworkTesting.app";
+			remoteRef = C3B5884C2CC90F5F009E6F8C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C3B5884F2CC90F5F009E6F8C /* cs311l-frameworkTestingTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "cs311l-frameworkTestingTests.xctest";
+			remoteRef = C3B5884E2CC90F5F009E6F8C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C3B588512CC90F5F009E6F8C /* cs311l-frameworkTestingUITests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "cs311l-frameworkTestingUITests.xctest";
+			remoteRef = C3B588502CC90F5F009E6F8C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		C31703922C843EFB00425ED4 /* Resources */ = {
