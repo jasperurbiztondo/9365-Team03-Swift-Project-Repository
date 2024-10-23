@@ -34,6 +34,27 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		7107A1FC2CC91269003D4A5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7107A1F62CC91269003D4A5D /* cs311l-frameworkTesting.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7107A1C92CC91266003D4A5D;
+			remoteInfo = "cs311l-frameworkTesting";
+		};
+		7107A1FE2CC91269003D4A5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7107A1F62CC91269003D4A5D /* cs311l-frameworkTesting.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7107A1D92CC91268003D4A5D;
+			remoteInfo = "cs311l-frameworkTestingTests";
+		};
+		7107A2002CC91269003D4A5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7107A1F62CC91269003D4A5D /* cs311l-frameworkTesting.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7107A1E32CC91268003D4A5D;
+			remoteInfo = "cs311l-frameworkTestingUITests";
+		};
 		C31703A62C843EFF00425ED4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C317038C2C843EFB00425ED4 /* Project object */;
@@ -48,27 +69,6 @@
 			remoteGlobalIDString = C31703932C843EFB00425ED4;
 			remoteInfo = "cs311l-9365-swift";
 		};
-		C3B5884C2CC90F5F009E6F8C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C3B588342CC90F5E009E6F8C /* cs311l-frameworkTesting.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 71A130752CC8D5510030C1DC;
-			remoteInfo = "cs311l-frameworkTesting";
-		};
-		C3B5884E2CC90F5F009E6F8C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C3B588342CC90F5E009E6F8C /* cs311l-frameworkTesting.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 71A130852CC8D5540030C1DC;
-			remoteInfo = "cs311l-frameworkTestingTests";
-		};
-		C3B588502CC90F5F009E6F8C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C3B588342CC90F5E009E6F8C /* cs311l-frameworkTesting.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 71A1308F2CC8D5540030C1DC;
-			remoteInfo = "cs311l-frameworkTestingUITests";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -77,6 +77,7 @@
 		51F229A12C914BCA00F6F7E6 /* TodoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoController.swift; sourceTree = "<group>"; };
 		641B8F8C2C8E894D00444631 /* LetterGradeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterGradeController.swift; sourceTree = "<group>"; };
 		649B48E82CC8AEEA0095F635 /* RefactorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefactorView.swift; sourceTree = "<group>"; };
+		7107A1F62CC91269003D4A5D /* cs311l-frameworkTesting.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "cs311l-frameworkTesting.xcodeproj"; path = "cs311l-frameworkTesting/cs311l-frameworkTesting.xcodeproj"; sourceTree = "<group>"; };
 		C31703942C843EFB00425ED4 /* cs311l-9365-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cs311l-9365-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C31703972C843EFB00425ED4 /* cs311l_9365_swiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cs311l_9365_swiftApp.swift; sourceTree = "<group>"; };
 		C31703992C843EFB00425ED4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -98,14 +99,6 @@
 		C33CC5622C8D4AC900A64D35 /* TimeRange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeRange.swift; sourceTree = "<group>"; };
 		C33CC5682C8D537300A64D35 /* ScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleView.swift; sourceTree = "<group>"; };
 		C33CC56A2C8D560900A64D35 /* ScheduleController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ScheduleController.swift; path = "cs311l-9365-swift/view/ScheduleController.swift"; sourceTree = SOURCE_ROOT; };
-		C3B588292CC90F5E009E6F8C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		C3B5882B2CC90F5E009E6F8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C3B5882C2CC90F5E009E6F8C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		C3B5882D2CC90F5E009E6F8C /* cs311l_frameworkTestingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cs311l_frameworkTestingApp.swift; sourceTree = "<group>"; };
-		C3B5882F2CC90F5E009E6F8C /* cs311l_frameworkTestingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cs311l_frameworkTestingTests.swift; sourceTree = "<group>"; };
-		C3B588312CC90F5E009E6F8C /* cs311l_frameworkTestingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cs311l_frameworkTestingUITests.swift; sourceTree = "<group>"; };
-		C3B588322CC90F5E009E6F8C /* cs311l_frameworkTestingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cs311l_frameworkTestingUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		C3B588342CC90F5E009E6F8C /* cs311l-frameworkTesting.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "cs311l-frameworkTesting.xcodeproj"; sourceTree = "<group>"; };
 		C3B588362CC90F5E009E6F8C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		C3F36E872C8FCE2300797CB9 /* GradeCalculatorController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradeCalculatorController.swift; sourceTree = "<group>"; };
 		C3F36E892C8FCE3000797CB9 /* GradeCalculatorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradeCalculatorModel.swift; sourceTree = "<group>"; };
@@ -176,10 +169,20 @@
 			path = controller;
 			sourceTree = "<group>";
 		};
+		7107A1F72CC91269003D4A5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7107A1FD2CC91269003D4A5D /* cs311l-frameworkTesting.app */,
+				7107A1FF2CC91269003D4A5D /* cs311l-frameworkTestingTests.xctest */,
+				7107A2012CC91269003D4A5D /* cs311l-frameworkTestingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		C317038B2C843EFB00425ED4 = {
 			isa = PBXGroup;
 			children = (
-				C3B588352CC90F5E009E6F8C /* cs311l-frameworkTesting */,
+				7107A1F62CC91269003D4A5D /* cs311l-frameworkTesting.xcodeproj */,
 				C3B588372CC90F5E009E6F8C /* swift-debug */,
 				C31703962C843EFB00425ED4 /* cs311l-9365-swift */,
 				C31703A82C843EFF00425ED4 /* cs311l-9365-swiftTests */,
@@ -237,69 +240,12 @@
 			path = "cs311l-9365-swiftUITests";
 			sourceTree = "<group>";
 		};
-		C3B5882A2CC90F5E009E6F8C /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				C3B588292CC90F5E009E6F8C /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		C3B5882E2CC90F5E009E6F8C /* cs311l-frameworkTesting */ = {
-			isa = PBXGroup;
-			children = (
-				C3B5882A2CC90F5E009E6F8C /* Preview Content */,
-				C3B5882B2CC90F5E009E6F8C /* Assets.xcassets */,
-				C3B5882C2CC90F5E009E6F8C /* ContentView.swift */,
-				C3B5882D2CC90F5E009E6F8C /* cs311l_frameworkTestingApp.swift */,
-			);
-			path = "cs311l-frameworkTesting";
-			sourceTree = "<group>";
-		};
-		C3B588302CC90F5E009E6F8C /* cs311l-frameworkTestingTests */ = {
-			isa = PBXGroup;
-			children = (
-				C3B5882F2CC90F5E009E6F8C /* cs311l_frameworkTestingTests.swift */,
-			);
-			path = "cs311l-frameworkTestingTests";
-			sourceTree = "<group>";
-		};
-		C3B588332CC90F5E009E6F8C /* cs311l-frameworkTestingUITests */ = {
-			isa = PBXGroup;
-			children = (
-				C3B588312CC90F5E009E6F8C /* cs311l_frameworkTestingUITests.swift */,
-				C3B588322CC90F5E009E6F8C /* cs311l_frameworkTestingUITestsLaunchTests.swift */,
-			);
-			path = "cs311l-frameworkTestingUITests";
-			sourceTree = "<group>";
-		};
-		C3B588352CC90F5E009E6F8C /* cs311l-frameworkTesting */ = {
-			isa = PBXGroup;
-			children = (
-				C3B5882E2CC90F5E009E6F8C /* cs311l-frameworkTesting */,
-				C3B588302CC90F5E009E6F8C /* cs311l-frameworkTestingTests */,
-				C3B588332CC90F5E009E6F8C /* cs311l-frameworkTestingUITests */,
-				C3B588342CC90F5E009E6F8C /* cs311l-frameworkTesting.xcodeproj */,
-			);
-			path = "cs311l-frameworkTesting";
-			sourceTree = "<group>";
-		};
 		C3B588372CC90F5E009E6F8C /* swift-debug */ = {
 			isa = PBXGroup;
 			children = (
 				C3B588362CC90F5E009E6F8C /* main.swift */,
 			);
 			path = "swift-debug";
-			sourceTree = "<group>";
-		};
-		C3B588382CC90F5E009E6F8C /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				C3B5884D2CC90F5F009E6F8C /* cs311l-frameworkTesting.app */,
-				C3B5884F2CC90F5F009E6F8C /* cs311l-frameworkTestingTests.xctest */,
-				C3B588512CC90F5F009E6F8C /* cs311l-frameworkTestingUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -394,8 +340,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = C3B588382CC90F5E009E6F8C /* Products */;
-					ProjectRef = C3B588342CC90F5E009E6F8C /* cs311l-frameworkTesting.xcodeproj */;
+					ProductGroup = 7107A1F72CC91269003D4A5D /* Products */;
+					ProjectRef = 7107A1F62CC91269003D4A5D /* cs311l-frameworkTesting.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -408,25 +354,25 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		C3B5884D2CC90F5F009E6F8C /* cs311l-frameworkTesting.app */ = {
+		7107A1FD2CC91269003D4A5D /* cs311l-frameworkTesting.app */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.application;
 			path = "cs311l-frameworkTesting.app";
-			remoteRef = C3B5884C2CC90F5F009E6F8C /* PBXContainerItemProxy */;
+			remoteRef = 7107A1FC2CC91269003D4A5D /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		C3B5884F2CC90F5F009E6F8C /* cs311l-frameworkTestingTests.xctest */ = {
+		7107A1FF2CC91269003D4A5D /* cs311l-frameworkTestingTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = "cs311l-frameworkTestingTests.xctest";
-			remoteRef = C3B5884E2CC90F5F009E6F8C /* PBXContainerItemProxy */;
+			remoteRef = 7107A1FE2CC91269003D4A5D /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		C3B588512CC90F5F009E6F8C /* cs311l-frameworkTestingUITests.xctest */ = {
+		7107A2012CC91269003D4A5D /* cs311l-frameworkTestingUITests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = "cs311l-frameworkTestingUITests.xctest";
-			remoteRef = C3B588502CC90F5F009E6F8C /* PBXContainerItemProxy */;
+			remoteRef = 7107A2002CC91269003D4A5D /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -641,10 +587,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "cs311l-9365-swift/cs311l_9365_swift.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"cs311l-9365-swift/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -666,10 +614,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "cs311l-9365-swift/cs311l_9365_swift.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"cs311l-9365-swift/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";

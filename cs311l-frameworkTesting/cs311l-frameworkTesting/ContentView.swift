@@ -6,19 +6,26 @@
 //
 
 import SwiftUI
+import cs311lFramework
 
 struct ContentView: View {
+    @State private var person = Person(name:"Aidan", age:31)
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        Text(person.name)
+        Text("Age\(person.age)")
+        Text("Created on \(person.dateCreated.formatted(date: .long, time: .shortened))")
+        Button("Increment Age") {
+            person.age += 1
         }
-        .padding()
+        .buttonStyle(.borderedProminent)
+    }
+    .padding()
     }
 }
+
 
 #Preview {
     ContentView()
 }
+
