@@ -11,6 +11,7 @@
 		510C9A9B2C8843CD000BD8BF /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 510C9A9A2C8843CD000BD8BF /* Course.swift */; };
 		51F229A22C914BCA00F6F7E6 /* TodoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F229A12C914BCA00F6F7E6 /* TodoController.swift */; };
 		641B8F8D2C8E894D00444631 /* LetterGradeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641B8F8C2C8E894D00444631 /* LetterGradeController.swift */; };
+		649B48E92CC8AEEA0095F635 /* RefactorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649B48E82CC8AEEA0095F635 /* RefactorView.swift */; };
 		C31703982C843EFB00425ED4 /* cs311l_9365_swiftApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31703972C843EFB00425ED4 /* cs311l_9365_swiftApp.swift */; };
 		C317039A2C843EFB00425ED4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31703992C843EFB00425ED4 /* ContentView.swift */; };
 		C317039C2C843EFE00425ED4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C317039B2C843EFE00425ED4 /* Assets.xcassets */; };
@@ -54,6 +55,7 @@
 		510C9A9A2C8843CD000BD8BF /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
 		51F229A12C914BCA00F6F7E6 /* TodoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoController.swift; sourceTree = "<group>"; };
 		641B8F8C2C8E894D00444631 /* LetterGradeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterGradeController.swift; sourceTree = "<group>"; };
+		649B48E82CC8AEEA0095F635 /* RefactorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefactorView.swift; sourceTree = "<group>"; };
 		C31703942C843EFB00425ED4 /* cs311l-9365-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cs311l-9365-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C31703972C843EFB00425ED4 /* cs311l_9365_swiftApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cs311l_9365_swiftApp.swift; sourceTree = "<group>"; };
 		C31703992C843EFB00425ED4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -121,6 +123,7 @@
 		510C9A9D2C89E893000BD8BF /* view */ = {
 			isa = PBXGroup;
 			children = (
+				649B48E82CC8AEEA0095F635 /* RefactorView.swift */,
 				C31703C22C8446F300425ED4 /* CustomTabBar.swift */,
 				C31703992C843EFB00425ED4 /* ContentView.swift */,
 				C31703CA2C84545A00425ED4 /* TodoView.swift */,
@@ -334,6 +337,7 @@
 			files = (
 				C3F36E8A2C8FCE3000797CB9 /* GradeCalculatorModel.swift in Sources */,
 				510C9A9B2C8843CD000BD8BF /* Course.swift in Sources */,
+				649B48E92CC8AEEA0095F635 /* RefactorView.swift in Sources */,
 				C317039A2C843EFB00425ED4 /* ContentView.swift in Sources */,
 				C33CC56B2C8D560900A64D35 /* ScheduleController.swift in Sources */,
 				C31703C32C8446F300425ED4 /* CustomTabBar.swift in Sources */,
