@@ -16,9 +16,6 @@
 		C317039A2C843EFB00425ED4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31703992C843EFB00425ED4 /* ContentView.swift */; };
 		C317039C2C843EFE00425ED4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C317039B2C843EFE00425ED4 /* Assets.xcassets */; };
 		C317039F2C843EFE00425ED4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C317039E2C843EFE00425ED4 /* Preview Assets.xcassets */; };
-		C31703AA2C843EFF00425ED4 /* cs311l_9365_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31703A92C843EFF00425ED4 /* cs311l_9365_swiftTests.swift */; };
-		C31703B42C843EFF00425ED4 /* cs311l_9365_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31703B32C843EFF00425ED4 /* cs311l_9365_swiftUITests.swift */; };
-		C31703B62C843EFF00425ED4 /* cs311l_9365_swiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31703B52C843EFF00425ED4 /* cs311l_9365_swiftUITestsLaunchTests.swift */; };
 		C31703C32C8446F300425ED4 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31703C22C8446F300425ED4 /* CustomTabBar.swift */; };
 		C31703C52C84513C00425ED4 /* LetterGradeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31703C42C84513C00425ED4 /* LetterGradeView.swift */; };
 		C31703C72C8451EB00425ED4 /* AbsentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C31703C62C8451EB00425ED4 /* AbsentsView.swift */; };
@@ -29,6 +26,7 @@
 		C33CC5632C8D4AC900A64D35 /* TimeRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33CC5622C8D4AC900A64D35 /* TimeRange.swift */; };
 		C33CC5692C8D537300A64D35 /* ScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33CC5682C8D537300A64D35 /* ScheduleView.swift */; };
 		C33CC56B2C8D560900A64D35 /* ScheduleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33CC56A2C8D560900A64D35 /* ScheduleController.swift */; };
+		C35231FD2CDD05C900F77184 /* Books.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35231FC2CDD05C100F77184 /* Books.swift */; };
 		C3F36E882C8FCE2400797CB9 /* GradeCalculatorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F36E872C8FCE2300797CB9 /* GradeCalculatorController.swift */; };
 		C3F36E8A2C8FCE3000797CB9 /* GradeCalculatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F36E892C8FCE3000797CB9 /* GradeCalculatorModel.swift */; };
 /* End PBXBuildFile section */
@@ -55,14 +53,7 @@
 			remoteGlobalIDString = 7107A1E32CC91268003D4A5D;
 			remoteInfo = "cs311l-frameworkTestingUITests";
 		};
-		C31703A62C843EFF00425ED4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C317038C2C843EFB00425ED4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C31703932C843EFB00425ED4;
-			remoteInfo = "cs311l-9365-swift";
-		};
-		C31703B02C843EFF00425ED4 /* PBXContainerItemProxy */ = {
+		C35231F72CDD00DD00F77184 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = C317038C2C843EFB00425ED4 /* Project object */;
 			proxyType = 1;
@@ -84,11 +75,6 @@
 		C317039B2C843EFE00425ED4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C317039E2C843EFE00425ED4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C31703A02C843EFE00425ED4 /* cs311l_9365_swift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = cs311l_9365_swift.entitlements; sourceTree = "<group>"; };
-		C31703A52C843EFF00425ED4 /* cs311l-9365-swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cs311l-9365-swiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C31703A92C843EFF00425ED4 /* cs311l_9365_swiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cs311l_9365_swiftTests.swift; sourceTree = "<group>"; };
-		C31703AF2C843EFF00425ED4 /* cs311l-9365-swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cs311l-9365-swiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C31703B32C843EFF00425ED4 /* cs311l_9365_swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cs311l_9365_swiftUITests.swift; sourceTree = "<group>"; };
-		C31703B52C843EFF00425ED4 /* cs311l_9365_swiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cs311l_9365_swiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		C31703C22C8446F300425ED4 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 		C31703C42C84513C00425ED4 /* LetterGradeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterGradeView.swift; sourceTree = "<group>"; };
 		C31703C62C8451EB00425ED4 /* AbsentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbsentsView.swift; sourceTree = "<group>"; usesTabs = 0; wrapsLines = 0; };
@@ -99,6 +85,8 @@
 		C33CC5622C8D4AC900A64D35 /* TimeRange.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeRange.swift; sourceTree = "<group>"; };
 		C33CC5682C8D537300A64D35 /* ScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleView.swift; sourceTree = "<group>"; };
 		C33CC56A2C8D560900A64D35 /* ScheduleController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ScheduleController.swift; path = "cs311l-9365-swift/view/ScheduleController.swift"; sourceTree = SOURCE_ROOT; };
+		C35231F32CDD00DD00F77184 /* cs311l-9365-swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cs311l-9365-swiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C35231FC2CDD05C100F77184 /* Books.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Books.swift; sourceTree = "<group>"; };
 		C3B588362CC90F5E009E6F8C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		C3F36E872C8FCE2300797CB9 /* GradeCalculatorController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradeCalculatorController.swift; sourceTree = "<group>"; };
 		C3F36E892C8FCE3000797CB9 /* GradeCalculatorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradeCalculatorModel.swift; sourceTree = "<group>"; };
@@ -112,14 +100,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C31703A22C843EFF00425ED4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C31703AC2C843EFF00425ED4 /* Frameworks */ = {
+		C35231F02CDD00DD00F77184 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -132,6 +113,7 @@
 		510C9A9C2C89E633000BD8BF /* model */ = {
 			isa = PBXGroup;
 			children = (
+				C35231FC2CDD05C100F77184 /* Books.swift */,
 				C3F36E892C8FCE3000797CB9 /* GradeCalculatorModel.swift */,
 				510C9A982C884250000BD8BF /* TodoItem.swift */,
 				510C9A9A2C8843CD000BD8BF /* Course.swift */,
@@ -185,8 +167,6 @@
 				7107A1F62CC91269003D4A5D /* cs311l-frameworkTesting.xcodeproj */,
 				C3B588372CC90F5E009E6F8C /* swift-debug */,
 				C31703962C843EFB00425ED4 /* cs311l-9365-swift */,
-				C31703A82C843EFF00425ED4 /* cs311l-9365-swiftTests */,
-				C31703B22C843EFF00425ED4 /* cs311l-9365-swiftUITests */,
 				C31703952C843EFB00425ED4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -195,8 +175,7 @@
 			isa = PBXGroup;
 			children = (
 				C31703942C843EFB00425ED4 /* cs311l-9365-swift.app */,
-				C31703A52C843EFF00425ED4 /* cs311l-9365-swiftTests.xctest */,
-				C31703AF2C843EFF00425ED4 /* cs311l-9365-swiftUITests.xctest */,
+				C35231F32CDD00DD00F77184 /* cs311l-9365-swiftTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -221,23 +200,6 @@
 				C317039E2C843EFE00425ED4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		C31703A82C843EFF00425ED4 /* cs311l-9365-swiftTests */ = {
-			isa = PBXGroup;
-			children = (
-				C31703A92C843EFF00425ED4 /* cs311l_9365_swiftTests.swift */,
-			);
-			path = "cs311l-9365-swiftTests";
-			sourceTree = "<group>";
-		};
-		C31703B22C843EFF00425ED4 /* cs311l-9365-swiftUITests */ = {
-			isa = PBXGroup;
-			children = (
-				C31703B32C843EFF00425ED4 /* cs311l_9365_swiftUITests.swift */,
-				C31703B52C843EFF00425ED4 /* cs311l_9365_swiftUITestsLaunchTests.swift */,
-			);
-			path = "cs311l-9365-swiftUITests";
 			sourceTree = "<group>";
 		};
 		C3B588372CC90F5E009E6F8C /* swift-debug */ = {
@@ -268,41 +230,25 @@
 			productReference = C31703942C843EFB00425ED4 /* cs311l-9365-swift.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C31703A42C843EFF00425ED4 /* cs311l-9365-swiftTests */ = {
+		C35231F22CDD00DD00F77184 /* cs311l-9365-swiftTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C31703BC2C843EFF00425ED4 /* Build configuration list for PBXNativeTarget "cs311l-9365-swiftTests" */;
+			buildConfigurationList = C35231F92CDD00DD00F77184 /* Build configuration list for PBXNativeTarget "cs311l-9365-swiftTests" */;
 			buildPhases = (
-				C31703A12C843EFF00425ED4 /* Sources */,
-				C31703A22C843EFF00425ED4 /* Frameworks */,
-				C31703A32C843EFF00425ED4 /* Resources */,
+				C35231EF2CDD00DD00F77184 /* Sources */,
+				C35231F02CDD00DD00F77184 /* Frameworks */,
+				C35231F12CDD00DD00F77184 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C31703A72C843EFF00425ED4 /* PBXTargetDependency */,
+				C35231F82CDD00DD00F77184 /* PBXTargetDependency */,
 			);
 			name = "cs311l-9365-swiftTests";
+			packageProductDependencies = (
+			);
 			productName = "cs311l-9365-swiftTests";
-			productReference = C31703A52C843EFF00425ED4 /* cs311l-9365-swiftTests.xctest */;
+			productReference = C35231F32CDD00DD00F77184 /* cs311l-9365-swiftTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		C31703AE2C843EFF00425ED4 /* cs311l-9365-swiftUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C31703BF2C843EFF00425ED4 /* Build configuration list for PBXNativeTarget "cs311l-9365-swiftUITests" */;
-			buildPhases = (
-				C31703AB2C843EFF00425ED4 /* Sources */,
-				C31703AC2C843EFF00425ED4 /* Frameworks */,
-				C31703AD2C843EFF00425ED4 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C31703B12C843EFF00425ED4 /* PBXTargetDependency */,
-			);
-			name = "cs311l-9365-swiftUITests";
-			productName = "cs311l-9365-swiftUITests";
-			productReference = C31703AF2C843EFF00425ED4 /* cs311l-9365-swiftUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -311,18 +257,14 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1540;
+				LastSwiftUpdateCheck = 1610;
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
 					C31703932C843EFB00425ED4 = {
 						CreatedOnToolsVersion = 15.4;
 					};
-					C31703A42C843EFF00425ED4 = {
-						CreatedOnToolsVersion = 15.4;
-						TestTargetID = C31703932C843EFB00425ED4;
-					};
-					C31703AE2C843EFF00425ED4 = {
-						CreatedOnToolsVersion = 15.4;
+					C35231F22CDD00DD00F77184 = {
+						CreatedOnToolsVersion = 16.1;
 						TestTargetID = C31703932C843EFB00425ED4;
 					};
 				};
@@ -347,8 +289,7 @@
 			projectRoot = "";
 			targets = (
 				C31703932C843EFB00425ED4 /* cs311l-9365-swift */,
-				C31703A42C843EFF00425ED4 /* cs311l-9365-swiftTests */,
-				C31703AE2C843EFF00425ED4 /* cs311l-9365-swiftUITests */,
+				C35231F22CDD00DD00F77184 /* cs311l-9365-swiftTests */,
 			);
 		};
 /* End PBXProject section */
@@ -387,14 +328,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C31703A32C843EFF00425ED4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C31703AD2C843EFF00425ED4 /* Resources */ = {
+		C35231F12CDD00DD00F77184 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -412,6 +346,7 @@
 				510C9A9B2C8843CD000BD8BF /* Course.swift in Sources */,
 				649B48E92CC8AEEA0095F635 /* RefactorView.swift in Sources */,
 				C317039A2C843EFB00425ED4 /* ContentView.swift in Sources */,
+				C35231FD2CDD05C900F77184 /* Books.swift in Sources */,
 				C33CC56B2C8D560900A64D35 /* ScheduleController.swift in Sources */,
 				C31703C32C8446F300425ED4 /* CustomTabBar.swift in Sources */,
 				C33CC5692C8D537300A64D35 /* ScheduleView.swift in Sources */,
@@ -430,35 +365,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C31703A12C843EFF00425ED4 /* Sources */ = {
+		C35231EF2CDD00DD00F77184 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C31703AA2C843EFF00425ED4 /* cs311l_9365_swiftTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C31703AB2C843EFF00425ED4 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C31703B62C843EFF00425ED4 /* cs311l_9365_swiftUITestsLaunchTests.swift in Sources */,
-				C31703B42C843EFF00425ED4 /* cs311l_9365_swiftUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C31703A72C843EFF00425ED4 /* PBXTargetDependency */ = {
+		C35231F82CDD00DD00F77184 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = C31703932C843EFB00425ED4 /* cs311l-9365-swift */;
-			targetProxy = C31703A62C843EFF00425ED4 /* PBXContainerItemProxy */;
-		};
-		C31703B12C843EFF00425ED4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C31703932C843EFB00425ED4 /* cs311l-9365-swift */;
-			targetProxy = C31703B02C843EFF00425ED4 /* PBXContainerItemProxy */;
+			targetProxy = C35231F72CDD00DD00F77184 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -635,15 +555,14 @@
 			};
 			name = Release;
 		};
-		C31703BD2C843EFF00425ED4 /* Debug */ = {
+		C35231FA2CDD00DD00F77184 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Saint-Louis-University.cs311l-9365-swiftTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -653,53 +572,20 @@
 			};
 			name = Debug;
 		};
-		C31703BE2C843EFF00425ED4 /* Release */ = {
+		C35231FB2CDD00DD00F77184 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Saint-Louis-University.cs311l-9365-swiftTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cs311l-9365-swift.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/cs311l-9365-swift";
-			};
-			name = Release;
-		};
-		C31703C02C843EFF00425ED4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Saint-Louis-University.cs311l-9365-swiftUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "cs311l-9365-swift";
-			};
-			name = Debug;
-		};
-		C31703C12C843EFF00425ED4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Saint-Louis-University.cs311l-9365-swiftUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = "cs311l-9365-swift";
 			};
 			name = Release;
 		};
@@ -724,20 +610,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C31703BC2C843EFF00425ED4 /* Build configuration list for PBXNativeTarget "cs311l-9365-swiftTests" */ = {
+		C35231F92CDD00DD00F77184 /* Build configuration list for PBXNativeTarget "cs311l-9365-swiftTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C31703BD2C843EFF00425ED4 /* Debug */,
-				C31703BE2C843EFF00425ED4 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C31703BF2C843EFF00425ED4 /* Build configuration list for PBXNativeTarget "cs311l-9365-swiftUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C31703C02C843EFF00425ED4 /* Debug */,
-				C31703C12C843EFF00425ED4 /* Release */,
+				C35231FA2CDD00DD00F77184 /* Debug */,
+				C35231FB2CDD00DD00F77184 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

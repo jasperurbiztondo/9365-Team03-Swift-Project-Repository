@@ -7,11 +7,11 @@
 
 import Foundation
 
-class LetterGradeController: ObservableObject {
+public class LetterGradeController: ObservableObject {
     // Store grades
     @Published var grades: [Grade] = []
     
-    init() {
+    public init() {
         let course1 = Course(
             classCode: "9365A",
             courseNumber: "CS 311",
@@ -108,7 +108,7 @@ class LetterGradeController: ObservableObject {
     }
     
     // Conversion of Numeric Grade to Letter Grade
-    func letterGrade(for grade: Double) -> String {
+    public func letterGrade(for grade: Double) -> String {
         switch grade {
         case 90...100: return "A"
         case 80..<90: return "B"
