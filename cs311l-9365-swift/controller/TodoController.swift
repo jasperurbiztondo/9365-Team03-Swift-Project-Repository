@@ -7,14 +7,14 @@
 
 import Foundation
 
-class TodoController: ObservableObject {
+public class TodoController: ObservableObject {
     @Published var items: [TodoItem] = []
     
-    init() {
+    public init() {
         getItems()
     }
     
-    func getItems() {
+    public func getItems() {
         let newItems = [
             TodoItem(course: "CS 311", name: "Project", isCompleted: false),
             TodoItem(course: "CS 312", name: "Project", isCompleted: true)
@@ -22,11 +22,11 @@ class TodoController: ObservableObject {
         items.append(contentsOf: newItems)
     }
     
-    func deleteItem(indexSet: IndexSet) {
+    public func deleteItem(indexSet: IndexSet) {
         items.remove(atOffsets: indexSet)
     }
     
-    func moveItem(from: IndexSet, to: Int) {
+    public func moveItem(from: IndexSet, to: Int) {
         items.move(fromOffsets: from, toOffset: to)
     }
     
