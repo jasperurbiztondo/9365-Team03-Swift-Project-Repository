@@ -30,12 +30,12 @@ public class TodoController: ObservableObject {
         items.move(fromOffsets: from, toOffset: to)
     }
     
-    func addItem(course: String, name: String) {
+    public func addItem(course: String, name: String) {
         let newItem = TodoItem(course: course, name: name, isCompleted: false)
         items.append(newItem)
     }
     
-    func updateItem(item: TodoItem) {
+    publicfunc updateItem(item: TodoItem) {
         if let index = items.firstIndex(where: { $0.id == item.id }) {
                 items[index].isCompleted.toggle()
             }
