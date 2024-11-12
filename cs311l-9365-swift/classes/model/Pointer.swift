@@ -6,4 +6,12 @@ struct Pointer{
         self.x = x
         self.y = y
     }
+    
+    public func getX() -> Int {
+        return x
+    }
+
+    public func getY() -> Int {
+        return y
+    }
 }
