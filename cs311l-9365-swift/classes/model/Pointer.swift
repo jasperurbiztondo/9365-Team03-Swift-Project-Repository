@@ -1,6 +1,6 @@
 struct Pointer{
-    var x: Int
-    var y: Int
+    private var x: Int
+    private var y: Int
 
     init(x: Int, y: Int){
         self.x = x
